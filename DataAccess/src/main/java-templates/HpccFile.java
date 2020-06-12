@@ -12,12 +12,14 @@
  *     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  *     See the License for the specific language governing permissions and
  *     limitations under the License.
+ *
+ *     Generating from version ${project.version}
+ *
  *******************************************************************************/
 package org.hpccsystems.spark;
 
 import java.io.Serializable;
 import java.net.MalformedURLException;
-
 
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaRDD;
